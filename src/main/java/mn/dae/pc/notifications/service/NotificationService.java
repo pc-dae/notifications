@@ -14,7 +14,7 @@ public class NotificationService {
 
         // Invoke email service
         MustacheFactory mf = new DefaultMustacheFactory();
-        Mustache m = mf.compile(email.);
+        Mustache m = mf.compile(email);
 
     }
 }

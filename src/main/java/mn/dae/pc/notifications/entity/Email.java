@@ -4,9 +4,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.Map;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
+@Component
 public class Email {
     @JsonProperty("recipient")
     private String recipient;
