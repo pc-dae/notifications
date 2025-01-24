@@ -37,10 +37,10 @@ public class EmailControllerTest {
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <title>Greeting</title>
+ <title>{{title}}/title>
 </head>
 <body>
- <h1>Hello, {{name}}!</h1>
+ <h1>{{body}}!</h1>
 </body>
 </html>""";
     }
